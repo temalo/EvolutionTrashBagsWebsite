@@ -1,0 +1,28 @@
+﻿@using evobags.Models.LearnViewModels;
+@model EnvironmentalImpactViewModel
+
+
+@{
+    ViewData["Title"] = "Environmental Impact Calculator";    
+}
+
+
+<img src="~/images/Evolution-Bags-Logo.png" />
+<p>&nbsp;</p>
+<h1>@ViewData["Title"]</h1>
+<p>&nbsp;</p>
+<p>Use this calculator to see what your yearly impact to the environment will be, simply by using Evolution Trash Bags.<br />
+    Input the number of Evolution Trash Bags cases that you expect to consume on a yearly basis, and we will calculate your overall impact to the planet.</p>
+<p>&nbsp;</p>
+<form controller="LearnController" action="CalculatorResults" method="post">
+    Number of Cases: <input asp-for="NumCases"/><br/>
+    <p>&nbsp;</p>
+    <button type="submit">Calculate</button>
+</form>
+<p>&nbsp;</p>
+<img src="~/images/greenhouse-gas-cooling-tower.jpg" height="375" />
+
+
+
+
+

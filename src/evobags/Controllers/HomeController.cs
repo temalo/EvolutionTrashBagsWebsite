@@ -19,7 +19,6 @@ namespace evobags.Controllers
         }
         public IActionResult About()
         {
-            ViewData["Message"] = "Who Are We?";
 
             return View();
         }
