@@ -1,0 +1,126 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+
+<div class="row">
+    <div class="md-2">&nbsp;</div>
+    <div class="col-md-10">
+        <p>&nbsp;</p>
+        <div class="media-middle">
+            <img src="~/images/Evolution-Bags-Logo.png" alt="Evolution Trash Bags logo" class="img-responsive" />
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-3">
+        <p>&nbsp;</p>
+        <h3 style="text-align: center;">For the Good of the Earth</h3>
+    </div>
+    <div class="col-md-3">
+        <p>
+            Our passion is creating sustainable choices for everyday household items. We believe that our products do not have to be a choice between environmentally friendly, convenient, or economical. Our <a asp-controller="Products" asp-action="Index">products</a> embody all properties of ecologically-conscious consumer concerns. Aside from being competitively priced, and easy to order, we pride ourselves in exceeding all established environmental guidelines and certifications.
+        </p>
+    </div>
+    <div class="col-md-3">
+        <p>
+            Protecting the planet shouldn't be an afterthought. Dedicated companies like Evolution Trash Bags place sustainability first, and utilize the latest technology to create top quality products while keeping consumer cost down.
+        </p>
+        
+        <p>Evolution Trash Bags are manufactured with the highest percentage of (third-party certified) post-consumer recycled (PCR) material using a closed loop process that makes our products superior in quality. It's just the way it should be.</p>
+    </div>
+    <div class="col-md-3">
+        
+        <p>We have taken it one step further by putting our money where our mouth is. We have become proud members of 1% for the PLanet. For every sale from Evolution Trash Bags Tall Kitchen Trash Bag and White Rhino Super Tough Trash Bag we will donate 1% of our revenue to the nonprofit organizations dedicated to protecting the environment</p>
+    </div>
+</div>
+<p>&nbsp;</p>
+<hr />
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="6000">
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
+        <li data-target="#myCarousel" data-slide-to="5"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <img src="~/images/slides/ECOLOGO_RGB_Green_small.jpg" alt="ECOLOGO" class="img-responsive" />
+            <div class="carousel-caption">
+                <p>
+                    What does it take to be EcoLogo certified?
+                    <a class="btn btn-default btn-default" asp-controller="Learn" asp-action="Certifications">
+                        Learn More
+                    </a>
+                </p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="~/images/slides/LEED USGBC.png" alt="Visual Studio" class="img-responsive" />
+            <div class="carousel-caption">
+                <p>
+                    LEED USGBC certification - what does it mean?
+                    <a class="btn btn-default btn-default" asp-controller="Learn" asp-action="Certifications">
+                        Learn More
+                    </a>
+                </p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="~/images/slides/Tall-box-carousel.png" alt="Tall Kitchen Trash Bags" class="img-responsive" />
+            <div class="carousel-caption">
+                <p>
+                    Evolution Trash Bags
+                    <a class="btn btn-default btn-default" asp-controller="Products" asp-action="Index">
+                        Learn More
+                    </a>
+                </p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="~/images/slides/Evologo-Carousel.png" alt="Evolution Trash Bags Logo" class="img-responsive" />
+            <div class="carousel-caption">
+                <p>
+                    Environmental Sustainability - How we do it.
+                    <a class="btn btn-default btn-default" asp-controller="Home" asp-action="About">
+                        Learn More
+                    </a>
+                </p>
+            </div>
+        </div>@*This is slide 4*@
+        <div class="item">
+                <img src="~/images/slides/1pctPlanet-Carousel.png" alt="One Percent for the Planet" class="img-responsive" />
+                <div class="carousel-caption">
+                    <p>
+                        Proud member of One percent for the Planet
+                        <a class="btn btn-default btn-default" asp-controller="Learn" asp-action="Certifications">
+                            Learn More
+                        </a>
+                    </p>
+                </div>
+            </div>
+        <div class="item">
+            <img src="~/images/slides/Rhino-box-carousel.png" alt="White Rhino heavy duty " class="img-responsive" />
+            <div class="carousel-caption">
+                <p>
+                    Evolution Trash Bags
+                    <a class="btn btn-default btn-default" asp-controller="Products" asp-action="Index">
+                        Learn More
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
