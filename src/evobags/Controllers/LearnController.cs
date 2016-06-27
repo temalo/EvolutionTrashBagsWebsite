@@ -31,6 +31,10 @@ namespace evobags.Controllers
         {
             return View();
         }
+        public IActionResult Glossary()
+        {
+            return View();
+        }
 
         public IActionResult CalculatorResults(int NumCases)
         {
