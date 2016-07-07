@@ -29,6 +29,12 @@ namespace evobags.Controllers
 
             return View();
         }
+        public IActionResult Blog()
+        {
+            ViewData["Message"] = "Some sustainable thoughts";
+            return View();
+
+        }
 
         public IActionResult Error()
         {
