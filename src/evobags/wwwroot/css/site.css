@@ -25,29 +25,35 @@ textarea {
 /* =====================  Carousel =====================  */
 .carousel-caption {
   text-align: right;
-  padding-right: 15px;
-  color:#66cc33;
+  padding-right: 10px;
+  padding-left: 10px;
+  /*color:#66cc33; */
   /*color: #046a38;*/
+  color:#00155b;
   font-size: 20px;
-  font-family: Verdana, Arial, Helv, Helvetica, sans-serif;
+  /*font-family: Verdana, Arial, Helv, Helvetica, sans-serif;*/
   font-style: normal;
   /*text-shadow: 0 1px 2px rgba(0, 0, 0, .6);*/
 }
 .carousel-control.left {
-  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, .05) 0%, rgba(0, 0, 0, .0001) 100%);
+    left:0;
+    right:auto;
+  background-image: -webkit-linear-gradient(left,#00155b,white,white);
+  /*background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, .05) 0%, rgba(0, 0, 0, .0001) 100%);
   background-image:      -o-linear-gradient(left, rgba(0, 0, 0, .05) 0%, rgba(0, 0, 0, .0001) 100%);
   background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .05)), to(rgba(0, 0, 0, .0001)));
-  background-image:         linear-gradient(to right, rgba(0, 0, 0, .05) 0%, rgba(0, 0, 0, .0001) 100%);
+  background-image:         linear-gradient(to right, rgba(0, 0, 0, .05) 0%, rgba(0, 0, 0, .0001) 100%);*/
   /*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);*/
   background-repeat: repeat-x;
 }
 .carousel-control.right {
   right: 0;
   left: auto;
-  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, .0001) 0%, rgba(0, 0, 0, .05) 100%);
+  background-image: -webkit-linear-gradient(left,white,white,#00155b);
+  /*background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, .0001) 0%, rgba(0, 0, 0, .05) 100%);
   background-image:      -o-linear-gradient(left, rgba(0, 0, 0, .0001) 0%, rgba(0, 0, 0, .05) 100%);
   background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .0001)), to(rgba(0, 0, 0, .05)));
-  background-image:         linear-gradient(to right, rgba(0, 0, 0, .0001) 0%, rgba(0, 0, 0, .05) 100%);
+  background-image:         linear-gradient(to right, rgba(0, 0, 0, .0001) 0%, rgba(0, 0, 0, .05) 100%);*/
   /*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);*/
   background-repeat: repeat-x;
 }
